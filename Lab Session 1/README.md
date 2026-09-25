@@ -21,7 +21,7 @@ g.	Menangani kesalahan input
 4.	Konsep Pemrograman yang Digunakan
 Program menggunakan class dan object untuk membuat objek buku, constructor untuk menginisialisasi data, ArrayList untuk menyimpan beberapa objek buku, percabangan untuk menentukan kategori buku, perulangan untuk memproses banyak buku, serta exception handling untuk menangani kesalahan input.
 
-Output :
+Output
 ========================================
      SISTEM PERPUSTAKAAN SEDERHANA
 ========================================
