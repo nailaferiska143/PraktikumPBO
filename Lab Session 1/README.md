@@ -22,6 +22,7 @@ g.	Menangani kesalahan input
 Program menggunakan class dan object untuk membuat objek buku, constructor untuk menginisialisasi data, ArrayList untuk menyimpan beberapa objek buku, percabangan untuk menentukan kategori buku, perulangan untuk memproses banyak buku, serta exception handling untuk menangani kesalahan input.
 
 Output
+```text
 ========================================
      SISTEM PERPUSTAKAAN SEDERHANA
 ========================================
