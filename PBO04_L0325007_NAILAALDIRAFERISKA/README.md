@@ -36,7 +36,7 @@ PBO04\_L0325007\_NAILAALDIRAFERISKA
 
 &#x20;   └── MainApp.java
 
-
+```
 
 2\. Penjelasan 
 
@@ -81,7 +81,7 @@ d. Exception dan Assertion
 
 &#x20; assert anggota.isValid() : "Data anggota tidak valid (id/nama kosong)!";
 
-
+```
 
 e. Manipulasi Character \& String
 
@@ -365,4 +365,6 @@ Total transaksi peminjaman : 1
 Pilih menu (1-7): 7
 
 Terima kasih telah menggunakan sistem perpustakaan. Sampai jumpa!
+
+```
 
