@@ -34,7 +34,7 @@ PBO04\_L0325007\_NAILAALDIRAFERISKA
 
 ```
 
-**2. Penjelasan **
+**2. Penjelasan**
 
 a. Class Book digunakan untuk merepresentasikan data buku. Atributnya meliputi judul, penulis, tahun terbit, kategori, status ketersediaan, dan jumlah peminjaman.
 
@@ -54,8 +54,8 @@ h. Class MainApp adalah class utama yang digunakan untuk menjalankan aplikasi. C
 
 
 
-**3. Konsep yang Diterapkan
-a. OOP**
+**3. Konsep yang Diterapkan**
+**a. OOP**
 class \& object (Book, Member, LibraryService), constructor untuk inisialisasi wajib, method (getter/setter + method bisnis), package per lapisan tanggung jawab, encapsulation (atribut private + getter/setter).
 
 **b. Tipe data:**
