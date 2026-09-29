@@ -55,6 +55,7 @@ h. Class MainApp adalah class utama yang digunakan untuk menjalankan aplikasi. C
 
 
 **3. Konsep yang Diterapkan**
+
 **a. OOP**
 class \& object (Book, Member, LibraryService), constructor untuk inisialisasi wajib, method (getter/setter + method bisnis), package per lapisan tanggung jawab, encapsulation (atribut private + getter/setter).
 
