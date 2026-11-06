@@ -127,7 +127,7 @@ daftar.add(new Truk("Mitsubishi Colt Diesel", "AD 9012 EF", 600000, 4.5));
 daftar.get(i).tampilkanInfo();   // tipe variabel: Kendaraan
 ```
 
-Meskipun tipe variabelnya `Kendaraan`, Java memutuskan saat program berjalan (\*runtime\*) versi `tampilkanInfo()` mana yang dipakai, yaitu versi milik `Mobil`, `Motor`, atau `Truk` sesuai objek aslinya. Kode di `Main` tidak perlu `if` untuk membedakan jenis kendaraan.
+Meskipun tipe variabelnya `Kendaraan`, Java memutuskan saat program berjalan (runtime) versi `tampilkanInfo()` mana yang dipakai, yaitu versi milik `Mobil`, `Motor`, atau `Truk` sesuai objek aslinya. Kode di `Main` tidak perlu `if` untuk membedakan jenis kendaraan.
 4. Abstract Class
 `Kendaraan` dideklarasikan `abstract` dan memiliki satu abstract method tanpa isi.
 
@@ -137,7 +137,7 @@ public abstract class Kendaraan {
 }
 ```
 
-Alasannya: kendaraan "umum" tidak punya rumus biaya yang jelas, setiap jenis berbeda. Dengan abstract method, Java \*\*memaksa\*\* setiap subclass menyediakan rumusnya sendiri. Jika lupa, kode tidak bisa di-compile.
+Alasannya: kendaraan "umum" tidak punya rumus biaya yang jelas, setiap jenis berbeda. Dengan abstract method, Java memaksa setiap subclass menyediakan rumusnya sendiri. Jika lupa, kode tidak bisa di-compile.
 5. Interface
 ```java
 public interface Perawatan {
@@ -168,19 +168,19 @@ Perbedaan peran: abstract class menjawab "kendaraan itu apa" (punya nama, plat, 
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -190,7 +190,7 @@ Pilih menu: 1
 
 No. 1
 
-\[MOBIL]
+[MOBIL]
 
 Kendaraan : Toyota Avanza (AD 1234 AB)
 
@@ -200,11 +200,11 @@ Status    : Tersedia
 
 Penumpang : 7 orang
 
-\----------------------------
+----------------------------
 
 No. 2
 
-\[MOTOR]
+[MOTOR]
 
 Kendaraan : Honda Vario (AD 5678 CD)
 
@@ -214,11 +214,11 @@ Status    : Tersedia
 
 Helm      : Termasuk
 
-\----------------------------
+----------------------------
 
 No. 3
 
-\[TRUK]
+[TRUK]
 
 Kendaraan : Mitsubishi Colt Diesel (AD 9012 EF)
 
@@ -228,11 +228,11 @@ Status    : Tersedia
 
 Kapasitas : 4.5 ton
 
-\----------------------------
+----------------------------
 
 No. 4
 
-\[MOBIL]
+[MOBIL]
 
 Kendaraan : Honda Brio (AD 3456 GH)
 
@@ -242,25 +242,25 @@ Status    : Tersedia
 
 Penumpang : 5 orang
 
-\----------------------------
+----------------------------
 
 
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -286,19 +286,19 @@ Kendaraan Innova Reborn berhasil ditambahkan.
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -324,19 +324,19 @@ Kendaraan Yamaha Aerox berhasil ditambahkan.
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -344,17 +344,17 @@ Pilih menu: 3
 
 
 
-1\. Toyota Avanza (AD 1234 AB) - Tersedia
+1. Toyota Avanza (AD 1234 AB) - Tersedia
 
-2\. Honda Vario (AD 5678 CD) - Tersedia
+2. Honda Vario (AD 5678 CD) - Tersedia
 
-3\. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
+3. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
 
-4\. Honda Brio (AD 3456 GH) - Tersedia
+4. Honda Brio (AD 3456 GH) - Tersedia
 
-5\. Innova Reborn (B 2409 AA) - Tersedia
+5. Innova Reborn (B 2409 AA) - Tersedia
 
-6\. Yamaha Aerox (AA 1203 BF) - Tersedia
+6. Yamaha Aerox (AA 1203 BF) - Tersedia
 
 Pilih nomor kendaraan: 6
 
@@ -370,19 +370,19 @@ Total biaya 2 hari: Rp198.000
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -390,17 +390,17 @@ Pilih menu: 3
 
 
 
-1\. Toyota Avanza (AD 1234 AB) - Tersedia
+1. Toyota Avanza (AD 1234 AB) - Tersedia
 
-2\. Honda Vario (AD 5678 CD) - Tersedia
+2. Honda Vario (AD 5678 CD) - Tersedia
 
-3\. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
+3. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
 
-4\. Honda Brio (AD 3456 GH) - Tersedia
+4. Honda Brio (AD 3456 GH) - Tersedia
 
-5\. Innova Reborn (B 2409 AA) - Tersedia
+5. Innova Reborn (B 2409 AA) - Tersedia
 
-6\. Yamaha Aerox (AA 1203 BF) - Disewa
+6. Yamaha Aerox (AA 1203 BF) - Disewa
 
 Pilih nomor kendaraan: 4
 
@@ -416,19 +416,19 @@ Total biaya 1 hari: Rp350.000
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -436,17 +436,17 @@ Pilih menu: 4
 
 
 
-1\. Toyota Avanza (AD 1234 AB) - Tersedia
+1. Toyota Avanza (AD 1234 AB) - Tersedia
 
-2\. Honda Vario (AD 5678 CD) - Tersedia
+2. Honda Vario (AD 5678 CD) - Tersedia
 
-3\. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
+3. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
 
-4\. Honda Brio (AD 3456 GH) - Disewa
+4. Honda Brio (AD 3456 GH) - Disewa
 
-5\. Innova Reborn (B 2409 AA) - Tersedia
+5. Innova Reborn (B 2409 AA) - Tersedia
 
-6\. Yamaha Aerox (AA 1203 BF) - Disewa
+6. Yamaha Aerox (AA 1203 BF) - Disewa
 
 Pilih nomor kendaraan: 4
 
@@ -456,19 +456,19 @@ Honda Brio telah dikembalikan.
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -476,17 +476,17 @@ Pilih menu: 5
 
 
 
-1\. Toyota Avanza (AD 1234 AB) - Tersedia
+1. Toyota Avanza (AD 1234 AB) - Tersedia
 
-2\. Honda Vario (AD 5678 CD) - Tersedia
+2. Honda Vario (AD 5678 CD) - Tersedia
 
-3\. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
+3. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
 
-4\. Honda Brio (AD 3456 GH) - Tersedia
+4. Honda Brio (AD 3456 GH) - Tersedia
 
-5\. Innova Reborn (B 2409 AA) - Tersedia
+5. Innova Reborn (B 2409 AA) - Tersedia
 
-6\. Yamaha Aerox (AA 1203 BF) - Disewa
+6. Yamaha Aerox (AA 1203 BF) - Disewa
 
 Pilih nomor kendaraan: 5
 
@@ -498,19 +498,19 @@ Jadwal servis berikutnya: Setiap 5.000 km
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -518,17 +518,17 @@ Pilih menu: 6
 
 
 
-1\. Toyota Avanza (AD 1234 AB) - Tersedia
+1. Toyota Avanza (AD 1234 AB) - Tersedia
 
-2\. Honda Vario (AD 5678 CD) - Tersedia
+2. Honda Vario (AD 5678 CD) - Tersedia
 
-3\. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
+3. Mitsubishi Colt Diesel (AD 9012 EF) - Tersedia
 
-4\. Honda Brio (AD 3456 GH) - Tersedia
+4. Honda Brio (AD 3456 GH) - Tersedia
 
-5\. Innova Reborn (B 2409 AA) - Tersedia
+5. Innova Reborn (B 2409 AA) - Tersedia
 
-6\. Yamaha Aerox (AA 1203 BF) - Disewa
+6. Yamaha Aerox (AA 1203 BF) - Disewa
 
 Pilih nomor kendaraan: 1
 
@@ -540,19 +540,19 @@ Tarif Toyota Avanza sekarang: Rp400.000
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
@@ -562,7 +562,7 @@ Pilih menu: 1
 
 No. 1
 
-\[MOBIL]
+[MOBIL]
 
 Kendaraan : Toyota Avanza (AD 1234 AB)
 
@@ -572,11 +572,11 @@ Status    : Tersedia
 
 Penumpang : 7 orang
 
-\----------------------------
+----------------------------
 
 No. 2
 
-\[MOTOR]
+[MOTOR]
 
 Kendaraan : Honda Vario (AD 5678 CD)
 
@@ -586,11 +586,11 @@ Status    : Tersedia
 
 Helm      : Termasuk
 
-\----------------------------
+----------------------------
 
 No. 3
 
-\[TRUK]
+[TRUK]
 
 Kendaraan : Mitsubishi Colt Diesel (AD 9012 EF)
 
@@ -600,11 +600,11 @@ Status    : Tersedia
 
 Kapasitas : 4.5 ton
 
-\----------------------------
+----------------------------
 
 No. 4
 
-\[MOBIL]
+[MOBIL]
 
 Kendaraan : Honda Brio (AD 3456 GH)
 
@@ -614,11 +614,11 @@ Status    : Tersedia
 
 Penumpang : 5 orang
 
-\----------------------------
+----------------------------
 
 No. 5
 
-\[MOBIL]
+[MOBIL]
 
 Kendaraan : Innova Reborn (B 2409 AA)
 
@@ -628,11 +628,11 @@ Status    : Tersedia
 
 Penumpang : 8 orang
 
-\----------------------------
+----------------------------
 
 No. 6
 
-\[MOTOR]
+[MOTOR]
 
 Kendaraan : Yamaha Aerox (AA 1203 BF)
 
@@ -642,25 +642,25 @@ Status    : Disewa
 
 Helm      : Termasuk
 
-\----------------------------
+----------------------------
 
 
 
 ========= RENTAL KENDARAAN =========
 
-1\. Lihat daftar kendaraan
+1. Lihat daftar kendaraan
 
-2\. Tambah kendaraan baru
+2. Tambah kendaraan baru
 
-3\. Sewa kendaraan
+3. Sewa kendaraan
 
-4\. Kembalikan kendaraan
+4. Kembalikan kendaraan
 
-5\. Servis kendaraan
+5. Servis kendaraan
 
-6\. Ubah tarif kendaraan
+6. Ubah tarif kendaraan
 
-0\. Keluar
+0. Keluar
 
 ====================================
 
