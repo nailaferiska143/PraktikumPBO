@@ -98,7 +98,7 @@ b. Nilai < 70 → Tidak Lulus
 a. Rata-rata nilai kelas
 b. Jumlah siswa lulus
 c. Jumlah siswa tidak lulus
-4. File dibaca kembali baris demi baris dengan `readLine()` sampai `null`, lalu ditampilkan ke konsol.
+4. File dibaca kembali baris demi baris dengan readLine() sampai null, lalu ditampilkan ke konsol.
 5. Validasi input sehingga program tidak crash saat pengguna salah ketik.
 6. Seluruh proses file aman dari kebocoran resource (ditutup otomatis).
 
@@ -138,7 +138,7 @@ File laporan\_nilai.txt dibuat di direktori tempat program dijalankan. Strukturn
 
 No   Nama                      Nilai    Status      
 
-\-----------------------------------------------------
+-----------------------------------------------------
 
 1    Lala                      98,00    Lulus       
 
@@ -146,7 +146,7 @@ No   Nama                      Nilai    Status
 
 3    Nafa                      88,00    Lulus       
 
-\-----------------------------------------------------
+-----------------------------------------------------
 
 RINGKASAN
 
@@ -176,25 +176,25 @@ Masukkan jumlah siswa: 3
 
 Data siswa ke-1
 
-&#x20; Nama siswa ke-1  : Lala
+Nama siswa ke-1  : Lala
 
-&#x20; Nilai siswa ke-1 (0-100): 98
+Nilai siswa ke-1 (0-100): 98
 
 
 
 Data siswa ke-2
 
-&#x20; Nama siswa ke-2  : Bagas
+Nama siswa ke-2  : Bagas
 
-&#x20; Nilai siswa ke-2 (0-100): 67
+Nilai siswa ke-2 (0-100): 67
 
 
 
 Data siswa ke-3
 
-&#x20; Nama siswa ke-3  : Nafa
+Nama siswa ke-3  : Nafa
 
-&#x20; Nilai siswa ke-3 (0-100): 88
+Nilai siswa ke-3 (0-100): 88
 
 
 
@@ -216,7 +216,7 @@ Output di konsol (isi file hasil pembacaan ulang):
 
 No   Nama                      Nilai    Status      
 
-\-----------------------------------------------------
+-----------------------------------------------------
 
 1    Lala                      98,00    Lulus       
 
@@ -224,7 +224,7 @@ No   Nama                      Nilai    Status
 
 3    Nafa                      88,00    Lulus       
 
-\-----------------------------------------------------
+-----------------------------------------------------
 
 RINGKASAN
 
