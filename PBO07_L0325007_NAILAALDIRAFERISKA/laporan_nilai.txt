@@ -1,0 +1,13 @@
+LAPORAN NILAI MAHASISWA
+Standar kelulusan: 70.0
+==============================================================
+NIM          NAMA                       NILAI   GRADE STATUS
+--------------------------------------------------------------
+251202       MARIO                      88,00   A     LULUS
+252401       NANA                       69,00   D     TIDAK LULUS
+250309       LALA                       98,00   A     LULUS
+--------------------------------------------------------------
+Jumlah mahasiswa : 3
+Rata-rata kelas  : 85,00
+Lulus            : 2
+Tidak lulus      : 1
