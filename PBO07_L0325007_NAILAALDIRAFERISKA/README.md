@@ -86,7 +86,7 @@ Masukkan jumlah mahasiswa: 3
 
 
 
-\--- Data Mahasiswa ke-1 ---
+--- Data Mahasiswa ke-1 ---
 
 Nama  : Mario
 
@@ -98,7 +98,7 @@ NIM hanya boleh berisi angka, ditemukan karakter 'L' Ulangi input.
 
 
 
-\--- Data Mahasiswa ke-1 ---
+--- Data Mahasiswa ke-1 ---
 
 Nama  : Mario
 
@@ -110,7 +110,7 @@ Data berhasil ditambahkan.
 
 
 
-\--- Data Mahasiswa ke-2 ---
+--- Data Mahasiswa ke-2 ---
 
 Nama  : Nana
 
@@ -122,7 +122,7 @@ Data berhasil ditambahkan.
 
 
 
-\--- Data Mahasiswa ke-3 ---
+--- Data Mahasiswa ke-3 ---
 
 Nama  : Lala
 
@@ -164,7 +164,7 @@ Proses penyimpanan file selesai.
 
 **Format File Laporan**
 
-**```**
+```
 
 LAPORAN NILAI MAHASISWA
 
@@ -174,7 +174,7 @@ Standar kelulusan: 70.0
 
 NIM          NAMA                       NILAI   GRADE STATUS
 
-\--------------------------------------------------------------
+--------------------------------------------------------------
 
 251202       MARIO                      88,00   A     LULUS
 
@@ -182,7 +182,7 @@ NIM          NAMA                       NILAI   GRADE STATUS
 
 250309       LALA                       98,00   A     LULUS
 
-\--------------------------------------------------------------
+--------------------------------------------------------------
 
 Jumlah mahasiswa : 3
 
