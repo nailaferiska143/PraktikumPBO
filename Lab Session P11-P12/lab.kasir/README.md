@@ -281,39 +281,18 @@ Pengamatan: pada percobaan 1, Eko tampil lebih dulu pada pelanggan ke-1, sedangk
 
 Bagian Tahap 3 dan Tahap 4 (GUI, `MainGUI`):
 
-Tampilan awal jendela:
+Tampilan awal jendela, total bayar masih Rp 0 dan area struk kosong:
 
-!\[Tampilan awal](images/01-tampilan-awal.png)
+![Tampilan awal](image/01-tampilan-awal.png)
 
-Form terisi sebelum menekan Tambah (Nasi Goreng, 15000, 2):
+Setelah menu pertama (Nasi Goreng, 15.000 x 2) ditambahkan, satu baris masuk ke area struk dan field dikosongkan. Total bayar masih Rp 0 karena tombol Hitung Total belum ditekan:
 
-!\[Form terisi](images/02-form-terisi.png)
+![Satu menu ditambahkan](image/02-satu-menu-ditambahkan.png)
 
-Setelah dua menu ditambahkan dan Hitung Total ditekan, total bayar 45.000 (tanpa diskon):
+Setelah menu kedua (Es Teh, 5.000 x 3) ditambahkan dan Hitung Total ditekan, subtotal 45.000 tidak lebih dari 50.000 sehingga total bayar Rp 45.000 (tanpa diskon):
 
-!\[Dua menu, total 45.000](images/03-dua-menu-total-45000.png)
+![Dua menu, total 45.000](image/03-dua-menu-total-45000.png)
 
-Setelah menu ketiga ditambahkan, subtotal 70.000 dan total bayar 63.000 (diskon 10 persen):
+Setelah menu ketiga (Ayam Bakar, 25.000 x 1) ditambahkan dan Hitung Total ditekan, subtotal menjadi 70.000 sehingga berlaku diskon 10 persen dan total bayar Rp 63.000:
 
-!\[Tiga menu, total 63.000](images/04-tiga-menu-total-63000.png)
-
-Validasi: tombol Tambah ditekan saat field kosong:
-
-!\[Error field kosong](images/05-error-field-kosong.png)
-
-Validasi: harga diisi `abc` (bukan angka):
-
-!\[Error bukan angka](images/06-error-bukan-angka.png)
-
-Tombol Cetak Struk ditekan, status menampilkan "Mencetak struk...":
-
-!\[Mencetak struk](images/07-mencetak-struk.png)
-
-Selama status "Mencetak struk...", tombol Tambah tetap bisa dipakai (Teh Hangat berhasil ditambahkan), sehingga jendela tidak macet:
-
-!\[Tambah saat mencetak](images/08-tambah-saat-mencetak.png)
-
-Setelah 2 detik, status berubah menjadi "Struk selesai":
-
-!\[Struk selesai](images/09-struk-selesai.png)
-
+![Tiga menu, total 63.000](image/04-tiga-menu-total-63000.png)
